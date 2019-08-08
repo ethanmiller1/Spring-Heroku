@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e75d7d5c-8016-4fca-8713-df9a008c2855" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_20.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_9_0_20.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_16_0.xml" afterDir="false" />
@@ -41,13 +42,41 @@
       <change beforePath="$PROJECT_DIR$/target/camarket-1.0-SNAPSHOT/WEB-INF/views/viewProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/camarket-1.0-SNAPSHOT/WEB-INF/views/viewProduct.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/CartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/CartResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/CartResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/admin/AdminHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/admin/AdminHome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/admin/AdminProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/controller/admin/AdminProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CartDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CartItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CartItemDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CustomerOrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/CustomerOrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/ProductDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CartDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CartDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CartItemDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CartItemDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CustomerOrderDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/CustomerOrderDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/ProductDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/dao/impl/ProductDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Authorities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Authorities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/BillingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/BillingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/CustomerOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/CustomerOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/ShippingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/ShippingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CartItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CartItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CustomerOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CustomerOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CartItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CartItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CartServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CustomerOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CustomerOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/service/impl/ProductServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/kh/com/camarket/taglib/PaginationTaglib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kh/com/camarket/taglib/PaginationTaglib.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,8 +104,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="152">
               <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -773,7 +812,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49511856" visible="true" weight="0.29530916" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49511856" visible="true" weight="0.29530916" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -794,7 +833,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32914925" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32914925" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32914925" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.50906557" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -854,13 +893,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customerManagement.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1193,9 +1225,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="152">
           <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
