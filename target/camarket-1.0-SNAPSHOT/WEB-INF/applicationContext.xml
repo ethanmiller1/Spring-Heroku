@@ -13,9 +13,16 @@
 
         <!-- Database connection settings -->
         <property name="driverClassName" value="org.postgresql.Driver" />
-        <property name="url" value="jdbc:postgresql://localhost:5432/camarketdb" />
+
+        <!--host:port/database-->
+        <property name="url" value="jdbc:postgresql://ec2-107-20-167-241.compute-1.amazonaws.com:5432/df44i3tbrvloa9" />
+        <property name="username" value="mwbzjibbjzwoxt" />
+        <property name="password" value="621bac2e6dae281df6015b180636354461c028dbaa08115e31076e623b3911b9" />
+
+
+        <!--<property name="url" value="jdbc:postgresql://localhost:5432/emiller" />
         <property name="username" value="postgres" />
-        <property name="password" value="123" />
+        <property name="password" value="123" />-->
     </bean>
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />

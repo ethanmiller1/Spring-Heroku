@@ -1,0 +1,14 @@
+.classpath
+.project
+.settings/
+.vscode/
+target/camarket-1.0-SNAPSHOT.war
+target/camarket-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-jstl-1.2.jar
+target/camarket-1.0-SNAPSHOT/WEB-INF/lib/jstl-jstl-1.2.jar
+target/camarket-1.0-SNAPSHOT/WEB-INF/resources/img/productImages/33.png
+target/camarket-1.0-SNAPSHOT/WEB-INF/resources/img/productImages/34.png
+target/camarket-1.0-SNAPSHOT/WEB-INF/resources/img/productImages/35.png
+target/dependency/
+target/maven-archiver/
+target/maven-status/
+target/tomcat.8080/
